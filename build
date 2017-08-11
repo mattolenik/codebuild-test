@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set +xe
+
+docker pull broadinstitute/docker-terraform
+
+docker run --rm broadinstitute/terraform --help
